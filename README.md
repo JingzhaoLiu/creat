@@ -21,12 +21,14 @@
 
 ```  shell
 //rule
+
 ./copy <dir name> <path>
 
 // example
-// 先解压 toolkit.zip
+
 cd bin
 ./copy calcpro /Users/martin/Desktop/
+
 ```
 
 

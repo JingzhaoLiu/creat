@@ -19,12 +19,12 @@ func CopyDir(src string, dest string) {
 			//			fmt.Println(f.Name())
 			//			copyDir(f.Name(), dest+"/"+f.Name())
 		} else {
-			fmt.Println(src)
-			fmt.Println(srcOriginal)
-			fmt.Println(dest)
+			// fmt.Println(src)
+			// fmt.Println(srcOriginal)
+			// fmt.Println(dest)
  
 			destNew := strings.Replace(src, srcOriginal, dest, -1)
-			fmt.Println(destNew)
+			// fmt.Println(destNew)
 			fmt.Println("CopyFile:" + src + " to " + destNew)
 			copyFile(src, destNew)
 		}
