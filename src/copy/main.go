@@ -26,10 +26,13 @@ func main(){
 	mkdir(toPath)
 	// mkdir(toPath+"/bin")
 	// copy.CopyDir("../toolkit/bin", toPath+"/bin")
-	// mkdir(toPath+"/src")
+	mkdir(toPath+"/src")
 	// mkdir(toPath+"/pkg")
 	// copy.CopyDir("../toolkit/pkg", toPath+"/pkg")
-	// mkdir(toPath+"/src/dirname")
+	mkdir(toPath+"/src/"+os.Args[1])
+
+	// os.Chdir(toPath+"/src/"+os.Args[1])
+	os.Create(toPath+"/src/"+os.Args[1]+"/"+os.Args[1]+".go")
 
 	// 解压工具包
     path := "../toolkit"

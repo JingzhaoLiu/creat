@@ -11,7 +11,8 @@
 --pkg 
 --- go插件依赖
 --src
----main.go  
+---dirname
+----dirname.go  
 
 
 
