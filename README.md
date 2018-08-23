@@ -7,7 +7,7 @@
 
 ## 项目结构
 
-
+```
 creat
 ├── README.md
 ├── bin
@@ -25,7 +25,7 @@ creat
 │       │   └── decompress.go
 │       └── main.go
 └── toolkit.zip
-
+```
 
 
 ## 使用
@@ -45,7 +45,7 @@ cd bin
 ```
 
 ## 产出
-
+```
 dirname（自定义目录）
 ├── bin
 │   └── go插件的各种依赖
@@ -56,7 +56,7 @@ dirname（自定义目录）
 ├── src
     └── dirname
         └── dirname.go
-
+```
 
 
 ## 字符串截取
